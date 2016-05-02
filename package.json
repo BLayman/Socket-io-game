@@ -1,0 +1,22 @@
+{
+  "name": "move",
+  "version": "1.0.0",
+  "description": "multiple clients can join the game where they move their block around the screen",
+  "main": "move.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  "author": "Brett Layman",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "browserify": "^13.0.0",
+    "express": "^4.13.4",
+    "http": "0.0.0",
+    "path": "^0.12.7",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {
+    "watchify": "^3.7.0"
+  }
+}
